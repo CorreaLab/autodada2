@@ -8,10 +8,15 @@ This is the master script to perform dada2 anlaysis with amplicon sequencing dat
 Setting everything up:
 
 Programs needed to run script ->
+
 	1. AdapterRemoval2
+	
 	2. blast suite(specifically blastn and makeblastdb)
+	
 	3. reformat.sh from the bbtools kit
+	
 	4. R (packages will be installed when script is run
+	
 	5. FastQC
 
 **paths to these programs must be set in the autodada2v1.1.sh script 
