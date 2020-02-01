@@ -53,10 +53,10 @@ Options ->
    Set this option to only run LULU, but make sure to have files in LULUdir
    
    [ -g ]
-   Run the auto phylo script to produce phyloseq object and relative abundance plots
+   Run the auto phyloseq script to produce phyloseq object and relative abundance plots
    
    [ -f ]
-   Run ONLY the pyhlo script to produce phyloseq object and realtive abundance plots, need files within $"workdir"/phylo
+   Run ONLY the phyloseq script to produce phyloseq object and realtive abundance plots, need files within $"workdir"/phylo
 
 Quick note: make sure to always run from designated working directory; the scripts anchors itself to "'$workdir'"
   
