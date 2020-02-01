@@ -19,15 +19,15 @@ Programs needed to run script ->
 	
 	5. FastQC
 
-**paths to these programs must be set in the autodada2v1.1.sh script 
+**paths to these programs must be set in the autodada2_v1.1.sh script 
 
-nano autodada2v1.1.sh 
+nano autodada2_v1.1.sh 
 
 General exicution:
 
 Run the autodada2v1.1.sh executable in the same directory as the read libraries and make sure the supp_scripts file is in the same directory as script, if not, you have to set the path to the directory in the script file 
 
-autodada2_v1.1.sh [-hrbplagu;] 2>&1 | tee outputfile.out
+autodada2_v1.1.sh [-hrbplaguf;] 2>&1 | tee outputfile.out
 
 Options ->
 
